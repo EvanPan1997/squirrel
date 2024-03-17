@@ -16,7 +16,7 @@ func checkSupportedArch() {
 		runtime.GOARCH == "arm64" ||
 		runtime.GOARCH == "ppc64le" ||
 		runtime.GOARCH == "s390x" {
-		lg.Info("running arch [" + runtime.GOARCH + "] is supported")
+		//lg.Info("running arch [" + runtime.GOARCH + "] is supported")
 		return
 	}
 	// unsupported arch only configured via environment variable
